@@ -1,0 +1,200 @@
+
+.header{
+    padding: 30px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: rgb(51, 127, 233);
+    width: 2000px;
+}
+
+.topnav a:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+h2{
+    background-color: gray;
+    width: 1200px;
+    border: 3px solid black;
+    position: relative;
+    bottom: 20px;
+    right: 2px;
+    
+}
+
+.parent{
+    width: 1200px;
+    height: 1000px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.child1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    bottom: 700px;
+    z-index: 2;
+}
+.child2{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    z-index: 2;
+}
+
+.child3{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    z-index: 2;
+}
+.child4{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 750px;
+    top: 0px;
+    z-index: 2;
+}
+.box{
+    width: 1100px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    z-index: 0;
+    left: 25px;
+}
+.box2{
+    background-color: aqua;
+    width: 100px;
+    position: absolute;
+    left: 1020px;
+    top: 200px;
+    z-index: 2;
+}
+.box5{
+    background-color:purple;
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: 650px;
+    left:575px;
+}
+ .note{
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    top: 600px;
+ }
+.box3{
+    background-color: gray;
+    width: 1200px;
+    height: 10px;
+    position: absolute;
+    top: 550px;
+}
+.box4{
+    background-color:greenyellow;
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: 650px;
+    left: 25px;
+}
+.note1{
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+}
+.note2{
+    background-color: white;
+    width: 1200px;
+    position: absolute;
+    top: 420px;
+}
+.box6{
+    background-color:purple;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 700px;
+    left:75px;
+}
+.box7{
+    background-color:greenyellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 700px;
+    left:975px;
+}
+.note3{
+    background-color: white;
+    width: 500px;
+    position: absolute;
+    top: 900px;
+}
+.note4{
+    background-color: white;
+    width: 1100px;
+    position: absolute;
+    top: 950px;
+}
+.parent1{
+    width: 400px;
+    height: 1200px;
+    background-color: orange;
+    border: 3px solid black;
+    position: relative;
+    left: 1205px;
+   bottom: 1010px;;
+}
+.block{
+    width: 2000px;
+    height: 50px;
+    background-color: orange;
+    bottom: 700px;
+    position: relative;
+}
+.box8{
+    background-color:white;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.box9{
+    background-color:rgb(251, 6, 6);
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    z-index: 2;
+}
+.box10{
+    background-color:rgb(42, 40, 152);
+    width: 375px;
+    height: 250px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    z-index: 1;
+}
